@@ -60,3 +60,13 @@
 	@import 'layout/banner';
 	@import 'layout/footer';
 	@import 'layout/menu';
+
+.main {
+	& .banner {
+		& .header-container {
+			display: "flex";
+			justify-content: "space-between";
+			align-items: "center";
+		}
+	}
+}
