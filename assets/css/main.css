@@ -3567,3 +3567,8 @@ input, select, textarea {
 			margin-top: 0;
 			padding-top: 0;
 		}
+.main .banner .header-container {
+	display: "flex";
+	justify-content: "space-between";
+	align-items: "center";
+}
